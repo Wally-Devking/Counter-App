@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(127, 174, 255);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    
+
+}.heading {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(33, 33, 118);
+    margin: 20px;
+
+}
+
+#counter{
+    font-size: 200px;
+    background-color: rgb(33, 33, 118);
+    width: 35%;
+    display: flex;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+    margin: auto auto;
+    border: solid rgb(236, 239, 240);
+}
+
+
+.button-can {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+    margin-top: 30px;
+
+    
+}
+
+#increment-btn  {
+    background-color: rgb(33, 33, 118);
+    padding: 15px 50px;
+    border: solid rgb(236, 239, 240);
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+#increment-btn:active {
+    background-color: #71b0eb;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+#save-btn  {
+    background-color: rgb(15, 187, 55);
+    padding: 15px 50px;
+    border: solid rgb(236, 239, 240);
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#save-btn:active {
+    background-color: #71b0eb;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+#entry {
+    font-size: 30px;
+    font-weight: bold;
+    color: #170756;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(33, 33, 118);
+    margin-bottom: 10px;
+
+}
+
+#counter {
+    border: none;
+    font-size: 200px;
+    background-color: rgb(33, 33, 118);
+    width: 50%;
+    display: flex;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+    margin: auto auto;
+    box-shadow: rgb(21, 64, 203) 0px 0px 40px 10px;
+}
+    
+.button-can {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+    margin-top: 10px;
+  
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+    margin-top: 10px;
+    
+    
+}
+#increment-btn  {
+    background-color: rgb(33, 33, 118);
+    padding: 10px 65px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    box-shadow: rgb(104, 188, 211) 0px 0px 40px 10px;
+
+}
+
+#increment-btn:active {
+    background-color: #71b0eb;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+   
+}
+
+#save-btn  {
+    background-color: rgb(15, 187, 55);
+    padding: 8px 70px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: -10px;
+    border: none;
+    box-shadow: rgb(11, 45, 8) 0px 0px 40px 10px;
+
+}
+
+#save-btn:active {
+    background-color: #71b0eb;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+#entry {
+    font-size: 20px;
+    font-weight: bold;
+    color: #170756;
+}
+}
